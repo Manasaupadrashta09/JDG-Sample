@@ -42,7 +42,7 @@ public class Config {
 		 builder
 		  .addServer()
 		  .host("10.1.12.2")
-		  .port(11333);
+		  .port(11222);
 		 return new RemoteCacheManager(builder.build(), true);
 		}
 		public static class DataGridConfigurationException extends Exception
