@@ -41,7 +41,7 @@ public class Config {
 		 ConfigurationBuilder builder = new ConfigurationBuilder();
 		 builder
 		  .addServer()
-		  .host("10.1.12.2")
+		  .host("http://datagrid-app-jdg-sample.ose-elr-core.optum.com")
 		  .port(11222);
 		 return new RemoteCacheManager(builder.build(), true);
 		}
